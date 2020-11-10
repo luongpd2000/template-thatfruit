@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    margin-top: 40px;
+    
+}
+.login .title_log{
+    margin-bottom: 30px;
+    display: block;
+    width: 100%;
+}
+.login .title_log span{
+    font-size:42px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.login .login_form{
+    margin: auto;
+    border: 1px solid #c0bdbd;
+    border-radius: 1rem;
+}
+.login .form-login{
+    margin: auto;
+    width: 100%;
+    margin-top: 2rem;
+}
+.login .form-group{
+    font-size: 16px;
+}
+.login .button-log{
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-end;
+}
+.login .button-log .btn{
+    font-size: 16px;
+    padding: 0.3rem 1.5rem;
+    border-radius: 10px;
+    background-color: #73be47;
+    color: white;
+}
+.login .button-log .remember{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+.login .button-log #agree{
+    display: inline;
+    outline: none!important;
+    box-shadow: none!important;
+    width: 8%;
+}
+.login .button-log label{
+    font-size: 13px;
+    margin: 0;
+}
+.login .bottom-log {
+    font-size: 13px;
+    margin: auto;
+    padding: 2rem 0rem;
+}

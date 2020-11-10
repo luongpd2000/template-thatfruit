@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/fruit.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="menutop container-fluid ">
+            <div class="list_menutop container d-flex justify-content-md-end justify-content-center  ">
+                <div class="acc">
+                    <div class="dropdown">
+                        <span class="dropdown" data-toggle="dropdown">
+                            <i class="fas fa-user"></i>
+                            <a href="">Tài khoản</a>
+                        </span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="logIn.html">Đăng nhập</a>
+                            <a class="dropdown-item" href="signIn.html">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://www.google.com/maps/place/120+Triệu+Việt+Vương,+Bùi+Thị+Xuân,+Hai+Bà+Trưng,+Hà+Nội/@21.0146586,105.8481561,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab8c92a5b1db:0xb204a70204fcab4c!8m2!3d21.0146586!4d105.8503448"
+                        class="link_map">
+                        Bản đồ
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="area_search container">
+            <div class=" row">
+
+                <div class="left_search col-lg-6 col-md-12">
+                    <div class="input-group">
+                        <input type="text" class="  search form-control" id="searchHeader"
+                            placeholder="Tìm kiếm sản phẩm">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="right_search col-lg-6 col-md-12 row">
+                    <div class="nut">
+                        <button class=" btn dropdown" type="button" data-toggle="dropdown">
+                            <i class="fa fa-bars" aria-hidden="true" style="color: green;"></i>
+                        </button>
+                        <div class="outline dropdown-menu">
+                            <ul class="">
+                                <li class="">
+                                    <a class="" href="fruit.html">TRANG CHỦ</a>
+                                    <hr>
+                                </li>
+                                <li class="">
+                                    <a class="" href="introduce.html">GIỚI THIỆU</a>
+                                    <hr>
+                                </li>
+                                <li class="dropdown">
+                                    <a class=" dropdown-toggle" href="product.html" data-toggle="dropdown">
+                                        SẢN PHẨM
+                                    </a>
+                                    <hr>
+                                </li>
+                                <li class="">
+                                    <a class="" href="news.html">TIN TỨC</a>
+                                    <hr>
+                                </li>
+                                <li class="">
+                                    <a class="" href="contact.html">LIÊN HỆ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img class="" src="../images/logothatfruit.png" alt="">
+                    <div id="car1" class="cart " style="text-align: right">
+                        <a href="cart.html">
+                            <button class="card-item btn card1" type="button">
+                                <i class="fas fa-cart-arrow-down" style="color: #73be47;"></i>
+                                <span> 0 sp</span>
+                                <span> 0 VNĐ</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menuduoi container-fluid  menu_2">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavmenu">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="fruit.html">TRANG CHỦ </span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="introduce.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="dropdown nav-item active list_product ">
+                            <a class=" dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+                                SẢN PHẨM
+                            </a>
+                            <ul class="dropdown-menu">
+                                <div class="container">
+                                    <div class="row d-flex justify-content-between db">
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                        Tươi</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Ôn Đới</a>
+                                                </li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Nhiệt Đới</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Trái Cây Khô</a>
+                                                </li>
+                                                <li><a href="product.html" class="dropdown-item">Quả Khô</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Hạt Khô</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Nước Hoa Quả</a>
+                                                </li>
+                                                <li><a href="product.html" class="dropdown-item">Nước Detox</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Nước Ép Thường</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Trái Cây Bán
+                                                        Sỉ</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Mỹ</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Úc</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây New
+                                                        Zealand</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Pháp</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Giỏ Quà Biếu</a>
+                                                </li>
+                                                <li><a href="product.html" class="dropdown-item">Quả Trung Quốc</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                        Sạch</a></li>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="news.html">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="menuhide">
+            <div class="menuduoi container-fluid ">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-branch" href="#" style="margin-left: 150px;">
+                        <img src="../images/logothatfruit.png" alt="">
+                    </a>
+                    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavId">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="fruit.html">TRANG CHỦ </span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="introduce.html">GIỚI THIỆU</a>
+                            </li>
+                            <li class="dropdown nav-item active list_product ">
+                                <a class=" dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+                                    SẢN PHẨM
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <div class="container">
+                                        <div class="row d-flex justify-content-between db">
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                            Tươi</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Ôn Đới</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Nhiệt
+                                                            Đới</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                            Khô</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Quả Khô</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Hạt Khô</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Nước Hoa
+                                                            Quả</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Nước Detox</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Nước Ép Thường</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Trái Cây Bán
+                                                            Sỉ</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Mỹ</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Úc</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây New
+                                                            Zealand</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Pháp</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Giỏ Quà
+                                                            Biếu</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Quả Trung Quốc</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                            Sạch</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="news.html">TIN TỨC</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="contact.html">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right_search col-lg-3 row ">
+                        <div id="car1" class="cart " >
+                            <a href="cart.html">
+                                <button class="card-item btn card1" type="button">
+                                    <i class="fas fa-cart-arrow-down" style="color: #73be47;"></i>
+                                    <span> 0 sp</span>
+                                    <span> 0 VNĐ</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner_1">
+                        <img class="banner_img" src="../images/banner.png" alt="">
+                        <div class="banner_text">
+                            <h4>GIỎ HÀNG</h4>
+                            <a href="fruit.html">TRANG CHỦ</a>
+                            <span>|| GIỎ HÀNG</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <div class="infor_user">
+                        <div class="infor_label">Thông tin khách hàng:</div>
+                        <div class="infor_1">
+                            <span>Tên</span>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="infor_1">
+                            <span>Email</span>
+                            <input type="email" name="" id="email">
+                        </div>
+                        <div class="infor_1">
+                            <span>Số điện thoại</span>
+                            <input type="text" id="phoneNumber">
+                        </div>
+                        <div class="infor_1">
+                            <span>Địa chỉ</span>
+                            <input type="text" id="address">
+                        </div>
+                        <div class="infor_1" style="margin-bottom: 20px;">
+                            <span>Yêu cầu đối với nhà cung cấp</span>
+                            <input type="text" id="request">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <!-- <table class="table_1 ">
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                            <th scope="col">SẢN PHẨM</th>
+                            <th scope="col">GIÁ</th>
+                            <th scope="col">SỐ LƯỢNG</th>
+                            <th scope="col">TỔNG CỘNG</th>
+                        </tr>
+                        <tbody class="tbody-card listCartProduct" id="tb-cart">
+                            <tr class="id-pr-cart" data-idpdcart="11">
+                                <td scope="row" class="td_1"><i class="fas fa-times click-remove"></i></td>
+                                <td style="width:100px"><img src="fruit_07-250x250.jpg" alt=""></td>
+                                <td class="ctpc">Nhãn Hưng Yên</td>
+                                <td id="unitPrice">8000</td>
+                                <td>
+                                    <div class="soluong">
+                                        <i class="fas fa-arrow-alt-circle-down " id="tru" ></i>
+                                        <input type="text" class="ip-cart" name="" id="textbox" value="2" >
+                                        <i class="fas fa-arrow-alt-circle-up " id="cong"></i>
+                                    </div>
+                                </td>
+                                <td id="sumProduct">16000 </td>
+                            </tr>
+                        </tbody>
+                        
+                    </table> -->
+
+
+                    <!-- <div class="col-12 d-flex justify-content-sm-end justify-content-center">
+                        <div id="">
+                            <table class="table_2">
+                                <tr style="color: #8d8d8d;">
+                                    <th scope="row"> Tổng Sản phẩm</th>
+                                    <td id="sumProduct1">0</td>
+                                </tr>
+                                <tr style="color: #8d8d8d;">
+                                    <th scope="row"> Phí vận chuyển</th>
+                                    <td>50000 </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"> Tổng tiền</th>
+                                    <td id="sumPrice">0 </td>
+                                </tr>
+                            </table>
+                            <button class="btn">Tiến hành đặt hàng</button>
+                        </div>
+                    </div> -->
+                    <div class="cartprd">
+                        <table class="prd">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th>Sản phẩm</th>
+                                    <th>Giá</th>
+                                    <th>Số lượng</th>
+                                    <th style="width:120px;">Tổng cộng</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cartPro">
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div class="col-12 d-flex justify-content-sm-end justify-content-center">
+                        <div class="sumPrice">
+                            <table>
+                                <tbody id="bill">
+
+
+                                </tbody>
+                            </table>
+                            <button class="btn"> Tiến hành đặt hàng</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="email">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-3 col-sm-12">
+                    <p class="text-center " style="font-weight: 600;">Đăng kí để nhận lời khuyên, tin tức và khuyến mãi
+                        từ Thật Fruit</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="input-group">
+                        <input type="text" class="  search form-control" placeholder="Emai của bạn" id="email">
+                        <span class="input-group-btn">
+                            <button class="btn" type="button" id="btnemail">
+                                Đăng kí
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between" id="footer-menu">
+                <div class="col-md-3 col-sm-12">
+                    <h5>Về chúng tôi</h5><img src="../images/ft-img.png" alt="">
+                    <p style="font-size: 13px;color: #999999;">Sản phẩm của chúng tôi được thu hoạch mới, đóng
+                        hộp<span>[...]</span></p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h5>Thông Tin</h5>
+                    <ul class="cot">
+                        <li><a href="home">Trang chủ</a></li>
+                        <li><a href="aboutme">Giới thiệu</a></li>
+                        <li><a href="news">Tin tức</a></li>
+                        <li><a href="contact">Liên hệ</a></li>
+                        <li><a href="user">Lịch sử mua hàng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h5>Thật Fruit</h5>
+                    <ul class="cot">
+                        <li><a href="tel:0981 992 352" class="hotline">
+                                <i class="fas fa-phone"></i> 0981 992 352
+                            </a>
+                        </li>
+                        <li><a href="mailto:thatfruit@gmail.com" class="mail-company">
+                                <i class="fas fa-envelope"></i> thatfruit@gmail.com
+                            </a>
+                        </li>
+                        <li><a href="http://maps.google.com/?q=120 Triệu Việt Vương, Hai Bà Trưng, Hà Nội"
+                                class="address-company">
+                                <i class="fas fa-map-marker-alt"></i> 120 Triệu Việt Vương, Hai Bà Trưng, Hà Nội
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr style=" border-top: 1px solid white">
+            <div class="row d-flex align-items-center justify-content-between ">
+                <div class="col-md-4 col-sm-12 link">
+                    <span>Follow us</span>
+                    <a href="https://www.facebook.com" class="link-facebook">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a class="link-twitter" href="https://twitter.com/?lang=vi">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a class="link-youtube" href="https://www.youtube.com">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="link-instagram" href="https://www.instagram.com">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="col-md-5 col-sm-12 linkpage">
+                    <a href="https://tiki.vn"><img src="../images/tiki.png" alt=""></a>
+                    <a href="https://shopee.vn"><img src="../images/shopee.png" alt=""></a>
+                    <a href="https://www.sendo.vn"><img src="../images/Sendo.png" alt=""></a>
+                    <a href="https://www.grab.com/vn"><img src="../images/grapfood.png" alt=""></a>
+                    <a href="https://www.lazada.vn"><img src="../images/ladaza.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="nutlen">
+        <button id="len" style="display: inline-block;">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="../js/fruit.js"></script>
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>

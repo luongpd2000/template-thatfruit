@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ttsanpham >.btn{
+    background-color: rgb(255, 51, 0) !important;
+    color: white !important;
+    border: none;
+}
+.ttsanpham .motachitiet{
+    border: 1px solid gray;
+    padding: 35px 20px;
+}
+.motachitiet h5{
+    color: #73be47;
+}
+.motachitiet span{
+    color: #aeafb1;
+    font-size: 13px;
+}
+.anhchitiet{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.anhchitiet img{
+    width: 23%;
+    height: 95px;
+    border: 1px solid #ededed;
+}

@@ -1,0 +1,1269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/fruit.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="menutop container-fluid ">
+            <div class="list_menutop container d-flex justify-content-md-end justify-content-center  ">
+                <div class="acc">
+                    <div class="dropdown">
+                        <span class="dropdown" data-toggle="dropdown">
+                            <i class="fas fa-user"></i>
+                            <a href="">Tài khoản</a>
+                        </span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="logIn.html">Đăng nhập</a>
+                            <a class="dropdown-item" href="signIn.html">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://www.google.com/maps/place/120+Triệu+Việt+Vương,+Bùi+Thị+Xuân,+Hai+Bà+Trưng,+Hà+Nội/@21.0146586,105.8481561,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ab8c92a5b1db:0xb204a70204fcab4c!8m2!3d21.0146586!4d105.8503448"
+                        class="link_map">
+                        Bản đồ
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="area_search container">
+            <div class=" row">
+
+                <div class="left_search col-lg-6 col-md-12">
+                    <div class="input-group">
+                        <input type="text" class="  search form-control" id="searchHeader"
+                            placeholder="Tìm kiếm sản phẩm">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="right_search col-lg-6 col-md-12 row">
+                    <div class="nut">
+                        <button class=" btn dropdown" type="button" data-toggle="dropdown">
+                            <i class="fa fa-bars" aria-hidden="true" style="color: green;"></i>
+                        </button>
+                        <div class="outline dropdown-menu">
+                            <ul class="">
+                                <li class="">
+                                    <a class="" href="fruit.html">TRANG CHỦ</a>
+                                    <hr>
+                                </li>
+                                <li class="">
+                                    <a class="" href="introduce.html">GIỚI THIỆU</a>
+                                    <hr>
+                                </li>
+                                <li class="dropdown">
+                                    <a class=" dropdown-toggle" href="product.html" data-toggle="dropdown">
+                                        SẢN PHẨM
+                                    </a>
+                                    <hr>
+                                </li>
+                                <li class="">
+                                    <a class="" href="news.html">TIN TỨC</a>
+                                    <hr>
+                                </li>
+                                <li class="">
+                                    <a class="" href="contact.html">LIÊN HỆ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img class="" src="../images/logothatfruit.png" alt="">
+                    <div id="car1" class="cart giohang" style="text-align: right">
+                        <!-- <a href="cart.html">
+                            <button class="card-item btn card1" type="button">
+                                <i class="fas fa-cart-arrow-down" style="color: #73be47;"></i>
+                                <span> 0 sp</span>
+                                <span> 0 VNĐ</span>
+                            </button>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menuduoi container-fluid  menu_2">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavmenu">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="fruit.html">TRANG CHỦ </span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="introduce.html">GIỚI THIỆU</a>
+                        </li>
+                        <li class="dropdown nav-item active list_product ">
+                            <a class=" dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+                                SẢN PHẨM
+                            </a>
+                            <ul class="dropdown-menu">
+                                <div class="container">
+                                    <div class="row d-flex justify-content-between db">
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                        Tươi</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Ôn Đới</a>
+                                                </li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Nhiệt Đới</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Trái Cây Khô</a>
+                                                </li>
+                                                <li><a href="product.html" class="dropdown-item">Quả Khô</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Hạt Khô</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Nước Hoa Quả</a>
+                                                </li>
+                                                <li><a href="product.html" class="dropdown-item">Nước Detox</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Nước Ép Thường</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Trái Cây Bán
+                                                        Sỉ</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Mỹ</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Úc</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây New
+                                                        Zealand</a></li>
+                                                <li><a href="product.html" class="dropdown-item">Trái Cây Pháp</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Giỏ Quà Biếu</a>
+                                                </li>
+                                                <li><a href="product.html" class="dropdown-item">Quả Trung Quốc</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-12 col-lg-2 ">
+                                            <ul>
+                                                <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                        Sạch</a></li>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="news.html">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="contact.html">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="menuhide">
+            <div class="menuduoi container-fluid ">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-branch" href="#" style="margin-left: 150px;">
+                        <img src="../images/logothatfruit.png" alt="">
+                    </a>
+                    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavId">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="fruit.html">TRANG CHỦ </span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="introduce.html">GIỚI THIỆU</a>
+                            </li>
+                            <li class="dropdown nav-item active list_product ">
+                                <a class=" dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+                                    SẢN PHẨM
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <div class="container">
+                                        <div class="row d-flex justify-content-between db">
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                            Tươi</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Ôn Đới</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Nhiệt
+                                                            Đới</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                            Khô</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Quả Khô</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Hạt Khô</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Nước Hoa
+                                                            Quả</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Nước Detox</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Nước Ép Thường</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Trái Cây Bán
+                                                            Sỉ</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Mỹ</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Úc</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây New
+                                                            Zealand</a></li>
+                                                    <li><a href="product.html" class="dropdown-item">Trái Cây Pháp</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Giỏ Quà
+                                                            Biếu</a>
+                                                    </li>
+                                                    <li><a href="product.html" class="dropdown-item">Quả Trung Quốc</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="col-12 col-lg-2 ">
+                                                <ul>
+                                                    <li><a href="product.html" class="tieude dropdown-item">Trái Cây
+                                                            Sạch</a></li>
+                                                </ul>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="news.html">TIN TỨC</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link active" href="contact.html">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right_search col-lg-3 row ">
+                        <div id="car1" class="cart giohang" >
+                            <!-- <a href="cart.html">
+                                <button class="card-item btn card1" type="button">
+                                    <i class="fas fa-cart-arrow-down" style="color: #73be47;"></i>
+                                    <span> 0 sp</span>
+                                    <span> 0 VNĐ</span>
+                                </button>
+                            </a> -->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="Slide_product">
+            <div id="review" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#review" data-slide-to="0" class="active"></li>
+                    <li data-target="#review" data-slide-to="1"></li>
+                    <li data-target="#review" data-slide-to="2"></li>
+                    <li data-target="#review" data-slide-to="3"></li>
+                    <li data-target="#review" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="../images/slider1.png" alt="">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Giao tận tay người dùng</h5>
+                            <h2>Thực phẩm Organic</h2>
+                            <p>Chúng tôi cung cấp các sản phẩm hữu cơ chất lượng cao</p>
+                            <a href="aboutme">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/slider3.png" alt="">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Giao tận tay người dùng</h5>
+                            <h2>Thực phẩm Organic</h2>
+                            <p>Chúng tôi cung cấp các sản phẩm hữu cơ chất lượng cao</p>
+                            <a href="aboutme">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/slider1.png" alt="">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Giao tận tay người dùng</h5>
+                            <h2>Thực phẩm Organic</h2>
+                            <p>Chúng tôi cung cấp các sản phẩm hữu cơ chất lượng cao</p>
+                            <a href="aboutme">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/slider3.png" alt="">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Giao tận tay người dùng</h5>
+                            <h2>Thực phẩm Organic</h2>
+                            <p>Chúng tôi cung cấp các sản phẩm hữu cơ chất lượng cao</p>
+                            <a href="aboutme">Xem chi tiết</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/slider1.png" alt="">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Giao tận tay người dùng</h5>
+                            <h2>Thực phẩm Organic</h2>
+                            <p>Chúng tôi cung cấp các sản phẩm hữu cơ chất lượng cao</p>
+                            <a href="aboutme">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#review" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#review" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="list_productmenu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="chia">
+
+                            <div class="col_productmenu">
+                                <div class="_1productmenu">
+                                    <div class="hinhanh">
+                                        <img src="../images/775A8390.jpg" alt="">
+                                    </div>
+                                    <span>ƯU ĐÃI ĐẶC BIỆT</span>
+                                </div>
+                            </div>
+
+                            <div class="col_productmenu">
+                                <div class="_1productmenu">
+                                    <div class="hinhanh">
+                                        <img src="../images/775A8581.jpg" alt="">
+                                    </div>
+                                    <span>SẢN PHẨM BÁN CHẠY</span>
+                                </div>
+                            </div>
+
+                            <div class="col_productmenu">
+                                <div class="_1productmenu">
+                                    <div class="hinhanh">
+                                        <img src="../images/775A8583.jpg" alt="">
+                                    </div>
+                                    <span>SẢN PHẨM NỔI BẬT</span>
+                                </div>
+                            </div>
+
+                            <div class="col_productmenu">
+                                <div class="_1productmenu">
+                                    <div class="hinhanh">
+                                        <img src="../images/775A8660.jpg" alt="">
+                                    </div>
+                                    <span>ƯU ĐÃI CỦA THÁNG</span>
+                                </div>
+                            </div>
+
+                            <div class="col_productmenu">
+                                <div class="_1productmenu">
+                                    <div class="hinhanh">
+                                        <img src="../images/775A8668.jpg" alt="">
+                                    </div>
+                                    <span>TIN TỨC</span>
+                                </div>
+                            </div>
+
+                            <div class="col_productmenu">
+                                <div class="_1productmenu">
+                                    <div class="hinhanh">
+                                        <img src="../images/775A8610 copy.jpg" alt="">
+                                    </div>
+                                    <span>CHÚNG TÔI</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="_1service d-flex align-items-center ">
+                            <i class="fas fa-car"></i>
+                            <div class="service_text">
+                                <p>Miễn phí vận chuyển</p>
+                                <span>Áp dụng cho đơn hàng từ 500000 trở lên</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="_1service d-flex align-items-center ">
+                            <i class="fas fa-sync"></i>
+                            <div class="service_text">
+                                <p>Hoàn tiền miễn phí</p>
+                                <span>Hoàn tiền 100% trong 3 ngày đầu tiên</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="_1service d-flex align-items-center ">
+                            <i class="fas fa-phone-volume"></i>
+                            <div class="service_text">
+                                <p>Hỗ trợ 24/7</p>
+                                <span>Gọi cho chúng tôi bất cứ khi nào bạn muốn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title">
+                        <h3>ƯU ĐÃI ĐẶC BIỆT</h3>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="_1offer" data-id="5">
+                            <img src="../images/strawberry2.png" alt="">
+                            <div class="infor_product">
+                                <p>Chanh không hạt</p>
+                                <span>50.000 VNĐ/1Kg</span>
+                                <a href="chitiet.html">
+                                    <button class="btn" data-id="5" type="button"> Xem ngay
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12 d-flex ">
+                        <div class="_1offer_flex" data-id="5">
+                            <img src="../images/melons.png" alt="">
+                            <div class="infor_product">
+                                <p>Up to 75% Off</p>
+                                <a href="chitiet.html">
+                                    <button class="btn" data-id="5" type="button"> Xem ngay
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="_1offer_flex" data-id="5">
+                            <img src="../images/melons.png" alt="">
+                            <div class="infor_product" style="top: 60%;">
+                                <p>Up to 50% Off</p>
+                                <a href="chitiet.html">
+                                    <button class="btn" data-id="5" type="button"> Xem ngay
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="_1offer" data-id="5">
+                            <img src="../images/strawberry2.png" alt="">
+                            <div class="infor_product">
+                                <p>Chanh không hạt</p>
+                                <span>50.000 VNĐ/1Kg</span>
+                                <a href="chitiet.html">
+                                    <button class="btn" data-id="5" type="button"> Xem ngay
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best_product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title">
+                        <h3>SẢN PHẨM BÁN CHẠY</h3>
+                    </div>
+                    <div class="col-12">
+                        <ul class="best_product_list">
+                            <li class="active"><a href="" data-id="0">Tất cả</a></li>
+                            <li><a href="" data-id="1">Trái cây tươi</a></li>
+                            <li><a href="" data-id="2">Trái cây khô </a></li>
+                            <li><a href="" data-id="3">Nước hoa quả</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="carousel_best_product" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center">
+                            <div class="item">
+                                <div class="card add-id-cart" data-id="15">
+                                    <div class="card-img ">
+                                        <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Ớt chuông">
+                                        <div class="manmo"></div>
+                                        <i class="fas fa-eye"></i>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Ớt chuông</h5>
+                                        <p class="card-text text-center">10000 đ</p>
+                                        <div class="card_btn text-center">
+                                            <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card add-id-cart" data-id="9">
+                                    <div class="card-img ">
+                                        <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Táo Campuchia">
+                                        <div class="manmo"></div>
+                                        <i class="fas fa-eye"></i>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Táo Campuchia</h5>
+                                        <p class="card-text text-center">20000 đ</p>
+                                        <div class="card_btn text-center">
+                                            <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card add-id-cart" data-id="13">
+                                    <div class="card-img ">
+                                        <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Dừa xiêm">
+                                        <div class="manmo"></div>
+                                        <i class="fas fa-eye"></i>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Dừa xiêm</h5>
+                                        <p class="card-text text-center">7000 đ</p>
+                                        <div class="card_btn text-center">
+                                            <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-center">
+                            <div class="item">
+                                <div class="card add-id-cart" data-id="14">
+                                    <div class="card-img ">
+                                        <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Đào tiên">
+                                        <div class="manmo"></div>
+                                        <i class="fas fa-eye"></i>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Đào tiên</h5>
+                                        <p class="card-text text-center">15000 đ</p>
+                                        <div class="card_btn text-center">
+                                            <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card add-id-cart" data-id="8">
+                                    <div class="card-img ">
+                                        <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Chanh có hạt">
+                                        <div class="manmo"></div>
+                                        <i class="fas fa-eye"></i>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Chanh có hạt</h5>
+                                        <p class="card-text text-center">12000 đ</p>
+                                        <div class="card_btn text-center">
+                                            <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card add-id-cart" data-id="4">
+                                    <div class="card-img ">
+                                        <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Chanh không hạt">
+                                        <div class="manmo"></div>
+                                        <i class="fas fa-eye"></i>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Chanh không hạt</h5>
+                                        <p class="card-text text-center">200000 đ</p>
+                                        <div class="card_btn text-center">
+                                            <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel_best_product" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><i
+                            class="fas fa-long-arrow-alt-left"></i></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel_best_product" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"><i
+                            class="fas fa-long-arrow-alt-right"></i></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="hot_product">
+            <div class="container">
+                <div class="col-12 title" style="margin-top: 30px;">
+                    <h3>SẢN PHẨM NỔI BẬT</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="hot_product_carousel" class="carousel slide" data-ride="carousel">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item ">
+                                    <div class="row add-id-cart" data-id="15">
+                                        <div class="col-12 col-md-5">
+                                            <div class=" img_hot_product">
+                                                <div class="hot_product_inner">
+                                                    <div class="img_front">
+                                                        <img class="imgchinh" src="../images/strawberry2.png" alt="Dâu tây Đà Lạt">
+                                                    </div>
+                                                    <div class="img_back">
+                                                        <img src="../images/fruit_21-250x250.jpg" alt="Dâu tây Đà Lạt">
+
+                                                        <i class="fas fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-7">
+                                            <div class="hp_wapper">
+                                                <span class="card-title">Dâu tây Đà Lạt</span>
+                                                <br>
+                                                <i class="card-text"> 100000 đ</i>
+                                                <div class="rating">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                </div>
+                                                <hr>
+                                                <p>Dâu tây Đà Lạt giống New Zealand là một trong các giống dâu tây cao
+                                                    cấp nhất được trồng thủy canh tại Đà Lạt. Trái dâu tây Đà Lạt giống
+                                                    New Zealand có màu sắc bắt mắt, thịt giòn, ngọt và đặc biệt là có
+                                                    hương thơm đặc trưng không thua kém gì dâu tây nhập khẩu.</p>
+                                                <div class="card_btn ">
+                                                    <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item t">
+                                    <div class="row add-id-cart" data-id="5">
+                                        <div class="col-12 col-md-5">
+                                            <div class=" img_hot_product">
+                                                <div class="hot_product_inner">
+                                                    <div class="img_front">
+                                                        <img class="imgchinh" src="../images/strawberry2.png" alt="Dâu tây Đà Lạt">
+                                                    </div>
+                                                    <div class="img_back">
+                                                        <img src="../images/fruit_21-250x250.jpg" alt="Dâu tây Đà Lạt">
+
+                                                        <i class="fas fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-7">
+                                            <div class="hp_wapper">
+                                                <span class="card-title">Dâu tây Đà Lạt</span>
+                                                <br>
+                                                <i class="card-text"> 100000 đ</i>
+                                                <div class="rating">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                </div>
+                                                <hr>
+                                                <p>Dâu tây Đà Lạt giống New Zealand là một trong các giống dâu tây cao
+                                                    cấp nhất được trồng thủy canh tại Đà Lạt. Trái dâu tây Đà Lạt giống
+                                                    New Zealand có màu sắc bắt mắt, thịt giòn, ngọt và đặc biệt là có
+                                                    hương thơm đặc trưng không thua kém gì dâu tây nhập khẩu.</p>
+                                                <div class="card_btn ">
+                                                    <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item  active">
+                                    <div class="row add-id-cart" data-id="11">
+                                        <div class="col-12 col-md-5">
+                                            <div class="img_hot_product">
+                                                <div class="hot_product_inner">
+                                                    <div class="img_front">
+                                                        <img class="imgchinh" src="../images/strawberry2.png" alt="Dâu tây Đà Lạt">
+                                                    </div>
+                                                    <div class="img_back">
+                                                        <img src="../images/fruit_21-250x250.jpg" alt="Dâu tây Đà Lạt">
+
+                                                        <i class="fas fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-7">
+                                            <div class="hp_wapper">
+                                                <span class="card-title">Dâu tây Đà Lạt</span>
+                                                <br>
+                                                <i class="card-text"> 100000 đ</i>
+                                                <div class="rating">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                </div>
+                                                <hr>
+                                                <p>Dâu tây Đà Lạt giống New Zealand là một trong các giống dâu tây cao
+                                                    cấp nhất được trồng thủy canh tại Đà Lạt. Trái dâu tây Đà Lạt giống
+                                                    New Zealand có màu sắc bắt mắt, thịt giòn, ngọt và đặc biệt là có
+                                                    hương thơm đặc trưng không thua kém gì dâu tây nhập khẩu.</p>
+                                                <div class="card_btn ">
+                                                    <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item ">
+                                    <div class="row add-id-cart" data-id="14">
+                                        <div class="col-12 col-md-5">
+                                            <div class="img_hot_product">
+                                                <div class="hot_product_inner">
+                                                    <div class="img_front">
+                                                        <img class="imgchinh" src="../images/strawberry2.png" alt="Dâu tây Đà Lạt">
+                                                    </div>
+                                                    <div class="img_back">
+                                                        <img src="../images/fruit_21-250x250.jpg" alt="Dâu tây Đà Lạt">
+
+                                                        <i class="fas fa-eye"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-7">
+                                            <div class="hp_wapper">
+                                                <span class="card-title">Dâu tây Đà Lạt</span>
+                                                <br>
+                                                <i class="card-text"> 100000 đ</i>
+                                                <div class="rating">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                </div>
+                                                <hr>
+                                                <p>Dâu tây Đà Lạt giống New Zealand là một trong các giống dâu tây cao
+                                                    cấp nhất được trồng thủy canh tại Đà Lạt. Trái dâu tây Đà Lạt giống
+                                                    New Zealand có màu sắc bắt mắt, thịt giòn, ngọt và đặc biệt là có
+                                                    hương thơm đặc trưng không thua kém gì dâu tây nhập khẩu.</p>
+                                                <div class="card_btn ">
+                                                    <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#hot_product_carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        </a>
+                        <a class="carousel-control-next" href="#hot_product_carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                        </a>
+                        <!--.Carousel-->
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <section class="discount">
+            <div class="row">
+                <div class="col-12 title" style="margin-top: 30px;">
+                    <h3>ƯU ĐÃI CỦA THÁNG</h3>
+                </div>
+            </div>
+            <div class="col-12">
+                <div id="carousel_discount" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <div class="row d-flex justify-content-center">
+                                <div class="item">
+                                    <div class="card add-id-cart" data-id="15">
+                                        <div class="card-img ">
+                                            <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Ớt chuông">
+                                            <div class="manmo"></div>
+                                            <i class="fas fa-eye"></i>
+
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Ớt chuông</h5>
+                                            <i style="margin-left: 35%;"><del>200000 đ</del> </i>
+                                            <p class="card-text text-center">100000 đ</p>
+                                            <div class="card_btn text-center">
+                                                <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card add-id-cart" data-id="9">
+                                        <div class="card-img click-product-cart">
+                                            <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Táo Campuchia">
+                                            <div class="manmo"></div>
+                                            <i class="fas fa-eye"></i>
+
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Táo Campuchia</h5>
+                                            <i style="margin-left: 35%;"><del>200000 đ</del> </i>
+                                            <p class="card-text text-center">100000 đ</p>
+                                            <div class="card_btn text-center">
+                                                <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card add-id-cart" data-id="13">
+                                        <div class="card-img click-product-cart">
+                                            <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Dừa xiêm">
+                                            <div class="manmo"></div>
+                                            <i class="fas fa-eye"></i>
+
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Dừa xiêm</h5>
+                                            <i style="margin-left: 35%;"><del>200000 đ</del> </i>
+                                            <p class="card-text text-center">100000 đ</p>
+                                            <div class="card_btn text-center">
+                                                <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="row d-flex justify-content-center">
+                                <div class="item">
+                                    <div class="card add-id-cart" data-id="14">
+                                        <div class="card-img click-product-cart">
+                                            <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Đào tiên">
+                                            <div class="manmo"></div>
+                                            <i class="fas fa-eye"></i>
+
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Đào tiên</h5>
+                                            <i style="margin-left: 35%;"><del>200000 đ</del> </i>
+                                            <p class="card-text text-center">100000 đ</p>
+                                            <div class="card_btn text-center">
+                                                <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card add-id-cart" data-id="8">
+                                        <div class="card-img click-product-cart">
+                                            <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Chanh có hạt">
+                                            <div class="manmo"></div>
+                                            <i class="fas fa-eye"></i>
+
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Chanh có hạt</h5>
+                                            <i style="margin-left: 35%;"><del>200000 đ</del> </i>
+                                            <p class="card-text text-center">100000 đ</p>
+                                            <div class="card_btn text-center">
+                                                <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card add-id-cart" data-id="4">
+                                        <div class="card-img click-product-cart">
+                                            <img class="imgchinh" src="../images/fruitpicture.jpg" alt="Chanh không hạt">
+                                            <div class="manmo"></div>
+                                            <i class="fas fa-eye"></i>
+
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center">Chanh không hạt</h5>
+                                            <i style="margin-left: 35%;"><del>200000 đ</del> </i>
+                                            <p class="card-text text-center">100000 đ</p>
+                                            <div class="card_btn text-center">
+                                                <a class="btn btn-outline-success click-add-cart">Thêm vào giỏ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel_discount" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"><i
+                                class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel_discount" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"><i
+                                class="fas fa-long-arrow-alt-right"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title" style="margin-top: 30px;">
+                        <h3>TIN TỨC</h3>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="../images/salad1.png" alt="Ăn sáng đúng cách" data-id="4">
+                        <a href="#" class="label1">Fruit Fresh</a>
+                        <span class="newscap">Ăn sáng đúng cách</span>
+                        <time class="">by <strong>Thật Fruit</strong> <span>10:18:51, 14/9/2019</span></time>
+                        <p>Mặc dù ăn rau cho bữa sáng không phải là phổ biến trong chế độ ăn kiêng phương Tây, nhưng nó
+                            khá phổ biến trong chế độ ăn kiêng từ các nơi trên thế giới.</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <a href="#" class="label1">Fruit Fresh</a>
+                        <span class="newscap">Có bao nhiêu đường trong thức ăn đồ uống của bạn?</span>
+                        <time class="">by <strong>Thật Fruit</strong> <span>10:18:51, 14/9/2019</span></time>
+                        <p>Mặc dù ăn rau cho bữa sáng không phải là phổ biến trong chế độ ăn kiêng phương Tây, nhưng nó
+                            khá phổ biến trong chế độ ăn kiêng từ các nơi trên thế giới.</p>
+                        <img src="../images/salad2.png" alt="Ăn sáng đúng cách" data-id="4">
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="news.html">
+                            <button class="btn" type="button"> XEM TẤT CẢ
+                                <i class="fas fa-long-arrow-alt-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about_us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title text-center" style="margin-top: 30px;">
+                        <h3>MỌI NGƯỜI NÓI VỀ CHÚNG TÔI</h3>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="about_us_item">
+                        <div class="img_item">
+                            <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/71867742_1195237587343783_6605458207152275456_n.jpg?_nc_cat=100&_nc_oc=AQnvfzgXHoyZIdATK2g7iccxiemduS0a5AFA_JJafa952-xkcFBIqOQnWfKTBhmX7WI&_nc_ht=scontent.fhan2-4.fna&oh=599984abb2ffd832c60b229ae721f5fa&oe=5E6461ED"
+                                alt="">
+                        </div>
+                        <div class="img_item active1">
+                            <img src="../images/69575458_430222317588807_3400898921952706560_n.jpg" alt="">
+                        </div>
+                        <div class="img_item">
+                            <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/71867742_1195237587343783_6605458207152275456_n.jpg?_nc_cat=100&_nc_oc=AQnvfzgXHoyZIdATK2g7iccxiemduS0a5AFA_JJafa952-xkcFBIqOQnWfKTBhmX7WI&_nc_ht=scontent.fhan2-4.fna&oh=599984abb2ffd832c60b229ae721f5fa&oe=5E6461ED"
+                                alt="">
+                        </div>
+                    </div>
+                    <p class="text-center" style="color: #a3a3a3;font-size: 13px;">Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Expedita
+                        dignissimos nemo
+                        fuga dolorum
+                        necessitatibus. Dolor nisi, incidunt unde commodi qui rem magnam nemo ducimus sit, maiores
+                        eligendi?
+                        Repellendus, incidunt repudiandae? Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span class="text-center d-block about_us_name"
+                        style="font-weight: 700;font-size:20px;color:black;">Thật Fruit</span>
+                    <span class="text-center d-block" style="font-size: 13px;color:rgb(255, 51, 0) ;">CEO/Founder</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="partner_carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3 col-6">
+                                        <a class="">
+                                            <img src="../images/sendobigimg.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a>
+                                            <img src="../images/fear.png " alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a>
+                                            <img src="../images/spark.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a>
+                                            <img src="../images/be.png" alt="Image">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 col-6 ">
+                                        <a href="#">
+                                            <img src="../images/sendobigimg.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a href="#">
+                                            <img src="../images/fear.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a href="#">
+                                            <img src="../images/spark.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a href="#">
+                                            <img src="../images/be.png" alt="Image">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3 col-6 ">
+                                        <a href="#">
+                                            <img src="../images/sendobigimg.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a href="#">
+                                            <img src="../images/fear.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a href="#">
+                                            <img src="../images/spark.png" alt="Image">
+                                        </a>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <a href="#">
+                                            <img src="../images/be.png" alt="Image">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="email">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-3 col-sm-12">
+                    <p class="text-center " style="font-weight: 600;">Đăng kí để nhận lời khuyên, tin tức và khuyến mãi
+                        từ Thật Fruit</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="input-group">
+                        <input type="text" class="  search form-control" placeholder="Emai của bạn" id="email">
+                        <span class="input-group-btn">
+                            <button class="btn" type="button" id="btnemail">
+                                Đăng kí
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4503604915953!2d105.8481561149324!3d21.014658586006053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab8c92a5b1db%3A0xb204a70204fcab4c!2zMTIwIFRyaeG7h3UgVmnhu4d0IFbGsMahbmcsIELDuWkgVGjhu4sgWHXDom4sIEhhaSBCw6AgVHLGsG5nLCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1570935642952!5m2!1svi!2s"
+            width="100%" height="260px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between" id="footer-menu">
+                <div class="col-md-3 col-sm-12">
+                    <h5>Về chúng tôi</h5><img src="../images/ft-img.png" alt="">
+                    <p style="font-size: 13px;color: #999999;">Sản phẩm của chúng tôi được thu hoạch mới, đóng
+                        hộp<span>[...]</span></p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h5>Thông Tin</h5>
+                    <ul class="cot">
+                        <li><a href="home">Trang chủ</a></li>
+                        <li><a href="aboutme">Giới thiệu</a></li>
+                        <li><a href="news">Tin tức</a></li>
+                        <li><a href="contact">Liên hệ</a></li>
+                        <li><a href="user">Lịch sử mua hàng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h5>Thật Fruit</h5>
+                    <ul class="cot">
+                        <li><a href="tel:0981 992 352" class="hotline">
+                                <i class="fas fa-phone"></i> 0981 992 352
+                            </a>
+                        </li>
+                        <li><a href="mailto:thatfruit@gmail.com" class="mail-company">
+                                <i class="fas fa-envelope"></i> thatfruit@gmail.com
+                            </a>
+                        </li>
+                        <li><a href="http://maps.google.com/?q=120 Triệu Việt Vương, Hai Bà Trưng, Hà Nội"
+                                class="address-company">
+                                <i class="fas fa-map-marker-alt"></i> 120 Triệu Việt Vương, Hai Bà Trưng, Hà Nội
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr style=" border-top: 1px solid white">
+            <div class="row d-flex align-items-center justify-content-between ">
+                <div class="col-md-4 col-sm-12 link">
+                    <span>Follow us</span>
+                    <a href="https://www.facebook.com" class="link-facebook">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a class="link-twitter" href="https://twitter.com/?lang=vi">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a class="link-youtube" href="https://www.youtube.com">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="link-instagram" href="https://www.instagram.com">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="col-md-5 col-sm-12 linkpage">
+                    <a href="https://tiki.vn"><img src="../images/tiki.png" alt=""></a>
+                    <a href="https://shopee.vn"><img src="../images/shopee.png" alt=""></a>
+                    <a href="https://www.sendo.vn"><img src="../images/Sendo.png" alt=""></a>
+                    <a href="https://www.grab.com/vn"><img src="../images/grapfood.png" alt=""></a>
+                    <a href="https://www.lazada.vn"><img src="../images/ladaza.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="nutlen">
+        <button id="len" style="display: inline-block;">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="../js/fruit.js"></script>
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>

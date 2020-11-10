@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.products .chitiet .row{
+    border: 1px solid rgb(201, 199, 199);
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.products .container >.row .sapxep button{
+    background-color: white !important;
+    border: none !important;
+    margin-left: 10px;
+}
+.products .container >.row .sapxep button i{
+    color: #73be47;
+    font-size: 1.5rem;
+}

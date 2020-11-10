@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#chitiet").click(function(){
+        $(".chitiet").show();
+        $(".luoi").hide();
+    });
+    $("#luoi").click(function(){
+        $(".luoi").show();
+        $(".chitiet").hide();
+    });
+});

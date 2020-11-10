@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.signIn .form-signIn{
+    width: 100%;
+}
+.signIn .form-signIn .form-sign{
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 30px;
+}
+ legend{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+.signIn .form-signIn input{
+    margin-bottom: 2rem;
+    height: 40px;
+}
+.signIn .form-signIn .btn{
+    font-size: 16px;
+    padding: 0.3rem 1.5rem;
+    border-radius: 10px;
+    background-color: #73be47;
+    color: white;
+}
+.signIn .section-or{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.signIn .section-or .ke{
+    height: 2px;
+    background: #ebebeb;
+    width: 33%;
+}
+.signIn .different{
+    display: flex;
+    justify-content: center;
+}
+.signIn .different .form{
+    border: 1px solid #e6e5e5;
+    padding: 1rem;
+    margin-bottom: 7rem;
+    border-radius: 5px;
+    
+}
+.signIn .different ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}

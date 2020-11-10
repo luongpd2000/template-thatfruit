@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Cart{
+    margin-top: 50px;
+}
+.Cart .infor_user{
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.Cart .infor_user .infor_label{
+    font-size: 26px;
+    color: black;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.Cart .infor_user .infor_1{
+    margin-top: 20px;
+}
+.Cart .infor_user .infor_1 span{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.Cart .infor_user .infor_1 input{
+    width: 100%;
+    height: 32px;
+    outline: none;
+    padding: 2px 5px;
+    border: 1px solid #b8b8b8;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.Cart .cartprd tr{
+    vertical-align: middle;
+    border-bottom: 1px dashed #8d8d8d;
+}
+.Cart .cartprd tr th{
+    font-weight: 600;
+    text-align: center;
+    min-width: 120px;
+    border: none;
+}
+.Cart .cartprd tbody tr:hover{
+    background-color: rgb(212, 211, 211);
+}
+.Cart .cartprd tbody .td_1{
+    width: 100px;
+    height: 70px;
+}
+.Cart .cartprd tbody td{
+    text-align: center;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.Cart .cartprd tbody img{
+    width: 50px;
+    height: 50px;
+}
+.Cart .cartprd tbody .soluong{
+    border: 1px solid #8a8a8a;
+    display: inline-block;
+    padding: 2px 5px;
+    color: #8a8a8a;
+    border-radius: 5px;
+    display: flex;
+}
+.Cart .cartprd tbody input{
+    padding: 0 10px;
+    display: inline-flex;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.tanggiam i{
+    cursor: pointer;
+    margin: auto;
+    color: white !important;
+    background-color: black;
+}
+.tanggiam i:hover{
+    background-color: black;
+    color: black;
+}
+.Cart .sumPrice{
+    margin-top: 50px;
+    max-width: 400px;
+    min-width: 280px;
+}
+.Cart .sumPrice tr{
+    border: 1px solid #b8b8b8;
+}
+.Cart .sumPrice tr:hover{
+    background-color: #f5f1f1;
+}
+.Cart .sumPrice tr th ,.cart .sumPrice tr td{
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    min-width: 70px;
+}
+.Cart .btn{
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #73be47;
+    color: white !important;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.Cart .btn:hover{
+    background-color: rgb(255, 51, 0);
+}
